@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TableController.swift
 //  Moments
 //
 //  Created by Dea-loC on 04/04/2018.
@@ -8,15 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TableController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+
     }
 
 
-
-
 }
-

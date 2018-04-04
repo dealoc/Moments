@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		20CF04A82074DFBA00816266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04A72074DFBA00816266 /* AppDelegate.swift */; };
-		20CF04AA2074DFBA00816266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04A92074DFBA00816266 /* ViewController.swift */; };
 		20CF04AF2074DFBB00816266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04AE2074DFBB00816266 /* Assets.xcassets */; };
 		20CF04B22074DFBB00816266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04B02074DFBB00816266 /* LaunchScreen.storyboard */; };
+		20CF04BE2074E18B00816266 /* CollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04BC2074E18B00816266 /* CollectionController.swift */; };
+		20CF04BF2074E18B00816266 /* CollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04BD2074E18B00816266 /* CollectionController.xib */; };
+		20CF04C22074E24900816266 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04C02074E24900816266 /* TableController.swift */; };
+		20CF04C32074E24900816266 /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04C12074E24900816266 /* TableController.xib */; };
+		20CF04C52074E30900816266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04C42074E30900816266 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20CF04A42074DFBA00816266 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CF04A72074DFBA00816266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20CF04A92074DFBA00816266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20CF04AE2074DFBB00816266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CF04B12074DFBB00816266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CF04B32074DFBB00816266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CF04BC2074E18B00816266 /* CollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionController.swift; sourceTree = "<group>"; };
+		20CF04BD2074E18B00816266 /* CollectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionController.xib; sourceTree = "<group>"; };
+		20CF04C02074E24900816266 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		20CF04C12074E24900816266 /* TableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableController.xib; sourceTree = "<group>"; };
+		20CF04C42074E30900816266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +61,40 @@
 			isa = PBXGroup;
 			children = (
 				20CF04A72074DFBA00816266 /* AppDelegate.swift */,
-				20CF04A92074DFBA00816266 /* ViewController.swift */,
+				20CF04BB2074E14D00816266 /* Modele */,
+				20CF04BA2074E14900816266 /* Vue */,
+				20CF04B92074E14300816266 /* Controller */,
 				20CF04AE2074DFBB00816266 /* Assets.xcassets */,
 				20CF04B02074DFBB00816266 /* LaunchScreen.storyboard */,
 				20CF04B32074DFBB00816266 /* Info.plist */,
 			);
 			path = Moments;
+			sourceTree = "<group>";
+		};
+		20CF04B92074E14300816266 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20CF04BC2074E18B00816266 /* CollectionController.swift */,
+				20CF04BD2074E18B00816266 /* CollectionController.xib */,
+				20CF04C02074E24900816266 /* TableController.swift */,
+				20CF04C12074E24900816266 /* TableController.xib */,
+				20CF04C42074E30900816266 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20CF04BA2074E14900816266 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		20CF04BB2074E14D00816266 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CF04C32074E24900816266 /* TableController.xib in Resources */,
 				20CF04B22074DFBB00816266 /* LaunchScreen.storyboard in Resources */,
+				20CF04BF2074E18B00816266 /* CollectionController.xib in Resources */,
 				20CF04AF2074DFBB00816266 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CF04AA2074DFBA00816266 /* ViewController.swift in Sources */,
+				20CF04C22074E24900816266 /* TableController.swift in Sources */,
+				20CF04C52074E30900816266 /* TabBarController.swift in Sources */,
 				20CF04A82074DFBA00816266 /* AppDelegate.swift in Sources */,
+				20CF04BE2074E18B00816266 /* CollectionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
