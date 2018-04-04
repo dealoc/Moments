@@ -22,6 +22,9 @@
 		20CF04CF2074E80500816266 /* ImageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04CE2074E80400816266 /* ImageCoinArrondi.swift */; };
 		20CF04D22074EACE00816266 /* MomentsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04D02074EACE00816266 /* MomentsCollectionCell.swift */; };
 		20CF04D32074EACE00816266 /* MomentsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04D12074EACE00816266 /* MomentsCollectionCell.xib */; };
+		20CF04D62074F13A00816266 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04D42074F13A00816266 /* PhotoDetailController.swift */; };
+		20CF04D72074F13A00816266 /* PhotoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04D52074F13A00816266 /* PhotoDetailController.xib */; };
+		20CF04D92074FAE000816266 /* Ratio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04D82074FAE000816266 /* Ratio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		20CF04CE2074E80400816266 /* ImageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoinArrondi.swift; sourceTree = "<group>"; };
 		20CF04D02074EACE00816266 /* MomentsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsCollectionCell.swift; sourceTree = "<group>"; };
 		20CF04D12074EACE00816266 /* MomentsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentsCollectionCell.xib; sourceTree = "<group>"; };
+		20CF04D42074F13A00816266 /* PhotoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
+		20CF04D52074F13A00816266 /* PhotoDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailController.xib; sourceTree = "<group>"; };
+		20CF04D82074FAE000816266 /* Ratio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,8 @@
 				20CF04C02074E24900816266 /* TableController.swift */,
 				20CF04C12074E24900816266 /* TableController.xib */,
 				20CF04C42074E30900816266 /* TabBarController.swift */,
+				20CF04D42074F13A00816266 /* PhotoDetailController.swift */,
+				20CF04D52074F13A00816266 /* PhotoDetailController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			children = (
 				20CF04C62074E41300816266 /* Photo.swift */,
 				20CF04C82074E4A600816266 /* BaseDePhotos.swift */,
+				20CF04D82074FAE000816266 /* Ratio.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -179,6 +188,7 @@
 				20CF04CD2074E6C200816266 /* MomentsTableCell.xib in Resources */,
 				20CF04C32074E24900816266 /* TableController.xib in Resources */,
 				20CF04B22074DFBB00816266 /* LaunchScreen.storyboard in Resources */,
+				20CF04D72074F13A00816266 /* PhotoDetailController.xib in Resources */,
 				20CF04D32074EACE00816266 /* MomentsCollectionCell.xib in Resources */,
 				20CF04BF2074E18B00816266 /* CollectionController.xib in Resources */,
 				20CF04AF2074DFBB00816266 /* Assets.xcassets in Resources */,
@@ -199,6 +209,8 @@
 				20CF04CF2074E80500816266 /* ImageCoinArrondi.swift in Sources */,
 				20CF04CC2074E6C200816266 /* MomentsTableCell.swift in Sources */,
 				20CF04C92074E4A600816266 /* BaseDePhotos.swift in Sources */,
+				20CF04D92074FAE000816266 /* Ratio.swift in Sources */,
+				20CF04D62074F13A00816266 /* PhotoDetailController.swift in Sources */,
 				20CF04C72074E41300816266 /* Photo.swift in Sources */,
 				20CF04D22074EACE00816266 /* MomentsCollectionCell.swift in Sources */,
 			);
