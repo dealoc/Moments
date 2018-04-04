@@ -30,36 +30,38 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0qc-mO-46H" customClass="ImageCoinArrondi" customModule="Moments" customModuleProvider="target">
-                            <rect key="frame" x="20" y="30" width="335" height="128"/>
+                            <rect key="frame" x="20" y="55" width="335" height="128"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="128" id="cie-HL-R8b"/>
                                 <constraint firstAttribute="width" constant="335" id="xnq-vH-vgF"/>
                             </constraints>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKX-aC-kxH">
-                            <rect key="frame" x="20" y="178" width="335" height="50"/>
+                            <rect key="frame" x="20" y="203" width="335" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="Rd5-OY-sMl"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" red="0.23137254900000001" green="0.33725490200000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pn0-mI-lIS">
-                            <rect key="frame" x="20" y="228" width="335" height="100"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pn0-mI-lIS">
+                            <rect key="frame" x="20" y="253" width="335" height="100"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="B5u-MJ-BHH"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d55-E4-nQS">
-                            <rect key="frame" x="20" y="368" width="335" height="50"/>
+                            <rect key="frame" x="20" y="393" width="335" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="tnv-yj-bfk"/>
                             </constraints>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="Retour">
+                                <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
                             <connections>
                                 <action selector="retourAction:" destination="-1" eventType="touchUpInside" id="W9r-eZ-TJr"/>
                             </connections>
@@ -74,7 +76,7 @@
                         <constraint firstItem="d55-E4-nQS" firstAttribute="top" secondItem="pn0-mI-lIS" secondAttribute="bottom" constant="40" id="e1n-6B-rRH"/>
                         <constraint firstAttribute="trailing" secondItem="0qc-mO-46H" secondAttribute="trailing" constant="20" id="eD1-Wh-FLz"/>
                         <constraint firstAttribute="trailing" secondItem="KKX-aC-kxH" secondAttribute="trailing" constant="20" id="gCj-uS-m8n"/>
-                        <constraint firstItem="0qc-mO-46H" firstAttribute="top" secondItem="bQx-2B-js8" secondAttribute="top" constant="30" id="k5O-Ve-5mz"/>
+                        <constraint firstItem="0qc-mO-46H" firstAttribute="top" secondItem="bQx-2B-js8" secondAttribute="top" constant="55" id="k5O-Ve-5mz"/>
                         <constraint firstItem="KKX-aC-kxH" firstAttribute="top" secondItem="0qc-mO-46H" secondAttribute="bottom" constant="20" id="s02-Cx-aZR"/>
                         <constraint firstItem="0qc-mO-46H" firstAttribute="leading" secondItem="bQx-2B-js8" secondAttribute="leading" constant="20" id="u4S-hw-ceQ"/>
                         <constraint firstItem="pn0-mI-lIS" firstAttribute="top" secondItem="KKX-aC-kxH" secondAttribute="bottom" id="yQG-8N-s7B"/>

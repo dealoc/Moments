@@ -44,6 +44,13 @@ class CollectionController: UIViewController, UICollectionViewDelegate, UICollec
 
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let photo = photos[indexPath.item]
+        let controller = PhotoDetailController()
+        controller.photo = photo
+        self.present(controller, animated: true, completion: nil)
+    }
+    
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
