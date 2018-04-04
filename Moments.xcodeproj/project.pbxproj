@@ -20,6 +20,8 @@
 		20CF04CC2074E6C200816266 /* MomentsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04CA2074E6C200816266 /* MomentsTableCell.swift */; };
 		20CF04CD2074E6C200816266 /* MomentsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04CB2074E6C200816266 /* MomentsTableCell.xib */; };
 		20CF04CF2074E80500816266 /* ImageCoinArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04CE2074E80400816266 /* ImageCoinArrondi.swift */; };
+		20CF04D22074EACE00816266 /* MomentsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04D02074EACE00816266 /* MomentsCollectionCell.swift */; };
+		20CF04D32074EACE00816266 /* MomentsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04D12074EACE00816266 /* MomentsCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		20CF04CA2074E6C200816266 /* MomentsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsTableCell.swift; sourceTree = "<group>"; };
 		20CF04CB2074E6C200816266 /* MomentsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentsTableCell.xib; sourceTree = "<group>"; };
 		20CF04CE2074E80400816266 /* ImageCoinArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoinArrondi.swift; sourceTree = "<group>"; };
+		20CF04D02074EACE00816266 /* MomentsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsCollectionCell.swift; sourceTree = "<group>"; };
+		20CF04D12074EACE00816266 /* MomentsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentsCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				20CF04CA2074E6C200816266 /* MomentsTableCell.swift */,
 				20CF04CB2074E6C200816266 /* MomentsTableCell.xib */,
 				20CF04CE2074E80400816266 /* ImageCoinArrondi.swift */,
+				20CF04D02074EACE00816266 /* MomentsCollectionCell.swift */,
+				20CF04D12074EACE00816266 /* MomentsCollectionCell.xib */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -173,6 +179,7 @@
 				20CF04CD2074E6C200816266 /* MomentsTableCell.xib in Resources */,
 				20CF04C32074E24900816266 /* TableController.xib in Resources */,
 				20CF04B22074DFBB00816266 /* LaunchScreen.storyboard in Resources */,
+				20CF04D32074EACE00816266 /* MomentsCollectionCell.xib in Resources */,
 				20CF04BF2074E18B00816266 /* CollectionController.xib in Resources */,
 				20CF04AF2074DFBB00816266 /* Assets.xcassets in Resources */,
 			);
@@ -193,6 +200,7 @@
 				20CF04CC2074E6C200816266 /* MomentsTableCell.swift in Sources */,
 				20CF04C92074E4A600816266 /* BaseDePhotos.swift in Sources */,
 				20CF04C72074E41300816266 /* Photo.swift in Sources */,
+				20CF04D22074EACE00816266 /* MomentsCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
