@@ -15,6 +15,10 @@
 		20CF04C22074E24900816266 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04C02074E24900816266 /* TableController.swift */; };
 		20CF04C32074E24900816266 /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04C12074E24900816266 /* TableController.xib */; };
 		20CF04C52074E30900816266 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04C42074E30900816266 /* TabBarController.swift */; };
+		20CF04C72074E41300816266 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04C62074E41300816266 /* Photo.swift */; };
+		20CF04C92074E4A600816266 /* BaseDePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04C82074E4A600816266 /* BaseDePhotos.swift */; };
+		20CF04CC2074E6C200816266 /* MomentsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CF04CA2074E6C200816266 /* MomentsTableCell.swift */; };
+		20CF04CD2074E6C200816266 /* MomentsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20CF04CB2074E6C200816266 /* MomentsTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		20CF04C02074E24900816266 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		20CF04C12074E24900816266 /* TableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableController.xib; sourceTree = "<group>"; };
 		20CF04C42074E30900816266 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		20CF04C62074E41300816266 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		20CF04C82074E4A600816266 /* BaseDePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDePhotos.swift; sourceTree = "<group>"; };
+		20CF04CA2074E6C200816266 /* MomentsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsTableCell.swift; sourceTree = "<group>"; };
+		20CF04CB2074E6C200816266 /* MomentsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentsTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,8 @@
 		20CF04BA2074E14900816266 /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				20CF04CA2074E6C200816266 /* MomentsTableCell.swift */,
+				20CF04CB2074E6C200816266 /* MomentsTableCell.xib */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -93,6 +103,8 @@
 		20CF04BB2074E14D00816266 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				20CF04C62074E41300816266 /* Photo.swift */,
+				20CF04C82074E4A600816266 /* BaseDePhotos.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -155,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CF04CD2074E6C200816266 /* MomentsTableCell.xib in Resources */,
 				20CF04C32074E24900816266 /* TableController.xib in Resources */,
 				20CF04B22074DFBB00816266 /* LaunchScreen.storyboard in Resources */,
 				20CF04BF2074E18B00816266 /* CollectionController.xib in Resources */,
@@ -173,6 +186,9 @@
 				20CF04C52074E30900816266 /* TabBarController.swift in Sources */,
 				20CF04A82074DFBA00816266 /* AppDelegate.swift in Sources */,
 				20CF04BE2074E18B00816266 /* CollectionController.swift in Sources */,
+				20CF04CC2074E6C200816266 /* MomentsTableCell.swift in Sources */,
+				20CF04C92074E4A600816266 /* BaseDePhotos.swift in Sources */,
+				20CF04C72074E41300816266 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
